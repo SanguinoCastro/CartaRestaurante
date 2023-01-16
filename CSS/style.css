@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'pirate';
+    src: url(../font/Treasuremap-Ea1vj.ttf);
+}
+
+body{
+    background-image: url(../Img/background1.jpg);
+    background-size: cover;
+}
+
+li{
+    list-style: none;
+}
+.cabecera{
+    display:flex;
+    justify-content: space-between;
+    width: 100vw;
+    margin-left: -2em;
+    
+}
+
+.title{
+    height: 30em;
+    margin-top: -4.5em;
+}
+
+.logo{
+    width: 22em; 
+}
+
+.boton-der{
+    display: flex;
+    margin-right: 2em;
+    margin-top: 3em;
+}
+
+#sell{
+    background-image: url(../Img/chest.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 3em;
+    width: 3em;
+    margin-top: 0.35em;
+    opacity: 0.7;
+    /* border: 0.1em solid black; */
+}
+
+#sell:hover{
+    background-image: url(../Img/chesthover.png);
+    opacity: 1;
+}
+
+#user{
+    background-image: url(../Img/user.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 3.5em;
+    width: 3.5em;
+    margin-top: -0.2em;
+    opacity:0.75;
+}
+
+#user:hover{
+    opacity: 1;
+}
+
+.icons{
+    width: 2.5em;
+    margin-top: 0.55em;
+    margin-left: -0.5em;
+    opacity: 0.75;
+}
+
+.icons:hover{
+    opacity: 1;
+}
+
+#menu_sup{
+    display: flex;
+    justify-items:center;
+    height: 10em;
+    margin-top: -6em;
+}
+
+.botones-centro{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-image: url(../Img/menu.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-radius: 0em;
+    padding: 1em;
+    height: 6em;
+    width: 35em;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+
+.sup_buttons{
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    font-family: pirate;
+    padding: 0.2em;
+    margin-top: 1em;
+    margin-left: -0.5em;
+    height: 2.5em;
+    /* border: 0.1em solid black; */
+}
+
+.sup_buttons:hover{
+    background-image: url(../Img/hover.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: rgb(131, 218, 240);
+    font-weight: bolder;
+}
+#home{
+    background-image: url(../Img/Home.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 3em;
+    height: 2.7em;
+    /* border: 0.1em solid black; */
+    align-self: center;
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+
+
+
+/* .right-buttons{
+    display: flex;
+    justify-content: end;
+    font-family: pirate;
+    padding: 0.2em;
+    margin-top: 0.5em;
+    margin-left: -0.5em;
+    height: 2.5em;
+} */
+
+
+
