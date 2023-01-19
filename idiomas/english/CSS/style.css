@@ -1,16 +1,16 @@
 /* Añadimos las fuentes a la pagina */
 @font-face {
     font-family: 'pirate';
-    src: url(../font/Treasuremap-Ea1vj.ttf);
+    src: url(/font/Treasuremap-Ea1vj.ttf);
 }
 
 @font-face {
     font-family: 'chocolate';
-    src: url(../font/PiecesNfi-LrOn.ttf);
+    src: url(/font/PiecesNfi-LrOn.ttf);
 }
 /* Añadimos fondo al cuerpo de la página */
 body{
-    background-image: url(../Img/background1.jpg);
+    background-image: url(/Img/background1.jpg);
     background-size: cover;
 }
 /* Quitamos todos los efectos de las listas */
@@ -27,9 +27,9 @@ li{
 /* Titulo de pantalla completa */
 .title{
     position: absolute;
-    height: 30em;
+    height: 25em;
     margin-top: -4.5em;
-    margin-left: -5.5em;
+    margin-left: -11em;
 }
 /* Titulo de pantalla reducida 'tlf' */
 .title2{
@@ -39,7 +39,8 @@ li{
 }
 /* el logo */
 .logo{
-    width: 22em; 
+    width: 20em; 
+    margin-left: 15em;
 }
 /* El ul de los botones de comprar, usuario e idiomas */
 .boton-der{
@@ -49,7 +50,7 @@ li{
 }
 /* bóton cofre de comprar con su hover*/
 #sell{
-    background-image: url(../Img/chest.png);
+    background-image: url(/Img/chest.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -61,13 +62,13 @@ li{
 }
 
 #sell:hover{
-    background-image: url(../Img/chesthover.png);
+    background-image: url(/Img/chesthover.png);
     opacity: 1;
 }
 
 /* botón usuario con su hover*/
 #user{
-    background-image: url(../Img/user.png);
+    background-image: url(/Img/user.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -147,7 +148,7 @@ li{
     display: flex;
     align-items: center;
     justify-items: center;
-    background-image: url(../Img/menu.png);
+    background-image: url(/Img/menu.png);
     background-size:contain;
     background-repeat: no-repeat;
     border-radius: 0em;
@@ -176,7 +177,7 @@ li{
 }
 
 .sup_buttons:hover{
-    background-image: url(../Img/hover.png);
+    background-image: url(/Img/hover.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -188,7 +189,7 @@ li{
 
 /* damos estilo al botón Home que no es clicable ya que estamos en él */
 #home{
-    background-image: url(../Img/Home.png);
+    background-image: url(/Img/Home.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -200,8 +201,104 @@ li{
     margin-left: 1em;
 }
 
-/* Empezamos el carrousel */
+    /* Empezamos el carrousel */
+.tablon{
+    /* border: 0.1em solid black; */
+    width: 80%;
+    height: 40%;
+    margin-left: 10%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
 
+.img-tablon{
+    height: 40em;
+    width: 100em;    
+}
+
+.img-tablon2{
+    display: none;
+}
+
+.arrows{
+    display: flex;
+    justify-content: space-around;  
+}
+
+
+    /* Divs texto presentación */
+
+.informacion-inf{
+    font-family: pirate;
+    display: flex;
+    justify-content: space-around;
+}
+
+.presentacion{
+    
+    display: flex;
+    justify-content: center;
+    background-image: url(/Img/papirowrtcat.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin-top: 2em;
+    margin-left: 10em;
+    width: 50em;
+    height: 55em;
+}
+
+.texto{
+    text-align: center;
+    padding: 5em;
+    margin-left: 50em;
+    width: 50%;
+    height: 40em;
+}
+
+.horario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 55em;
+    height: 45em;
+    margin-top: 2em;
+    margin-left: 30em;
+}
+.textoh{
+    padding: 5em;
+    font-size: larger;
+    margin-top: 4em;
+    width: 30em;
+}
+
+.visitanos{
+    height: 8em;
+    width: 20em;
+    margin-top: 5em;
+    margin-bottom: 40em;
+    margin-left: 5em;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    height: 4.5em;
+}
+
+.red{
+    height: 4.5em;
+}
+
+.footer{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;   
+    margin-top: 60em;
+    margin-left: -70em;
+    margin-bottom: 2em;
+    font-weight: bolder;
+    opacity: 0.75;
+}
 /* Aqui tenemos los @media para que la página sea lo mas responsive posible */
 @media(max-width: 1240px){
      
@@ -215,7 +312,8 @@ li{
             height: 15em;
             width: 0em;
             margin-left: -3em;
-        }    .title2{
+        }    
+    .title2{
             display:flex;
             position:absolute;
             height: 15em;
@@ -250,85 +348,154 @@ li{
             position:absolute;
             height: 15em;
             margin-top: 0;
-        }
+    }
     .icons{
             width: 2em;
             margin-left: -1.5em;
-        }
+    }
     #user{
             width: 2.5em;
             margin-left: -1.5em;
-        }
+    }
     #sell{
             width: 2.5em;
-        }
-    .boton-collapse{
+    }
+    .collapse1{
             height: 2em;
-            margin-top: -8em;
-        }
+    }
     .boton-der{
             position:absolute;
-            margin-left: 13em;
+            margin-left: 15em;
             margin-top: 5em;
-        }
+    }
     .botones-centro{
             position: absolute;
-            background-image: url(../Img/menu1.png);
-            margin-left: 1.5em;
+            background-image: url(/Img/menu1.png);
+            margin-left: -2em;
             padding: -30em;
             height: 21em;
-            width: 11em;
-            
-        }
+            width: 11em;            
+    }
     .desplegable-idiomas{
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 10em;
+            width: 5em;
             height: 10em;
-            margin-left: 1em;
-        }
+    }
+    .skull-lenguage{
+        height: 4em;
+    }
     .btn{
             width: 2.1em; 
             height: 2.1em;
-        }
+    }
     .icons{
-            margin-left: 0.05em;
-        }
+        margin-left: 0.05em;
+    }
     .idiomas{  
-            height: 9em;
-            width: 10em;
-        }
+        height: 8em;
+        margin-left: -2.1em;
+        margin-top: 1em; 
+    }
     #menu_sup{
-            height: 23em;
-            width: 18em;
-            
-        }
+        margin-top: 8em;
+        margin-left: 12em;
+        height: 10em;
+        width: 8em;
+    }
     .menu{
-            display: flex;
-            justify-content: end;
-            margin-top: 6em;
-            margin-left: 5em;
-            padding:2em;
-        }
+        display: flex;
+        justify-content: end;
+        margin-top: 5em;
+        margin-left: -20em;
+    }
+
+    .boton-collapse{
+        margin-top: -12em;
+    }
+    .collapse1{
+        margin-left: -9em;
+        margin-top: 0em;
+    }
     .sup_buttons{
-            width: 5em;
-            height: 1em;
-            margin-top: -1em;
-            font-size: 1em;
-        }
+        width: 5em;
+         height: 1em;
+        margin-top: -1em;
+        font-size: 1em;      
+    }
     .sup_buttons:hover{
-            background-image:none;
-            font-family: chocolate;
-            font-size:small;
-            margin-left: -2em;
-            color: #834843;
-        }        
+        background-image:none;
+        font-family: chocolate;
+        font-size:small;
+        margin-left: -2em;
+        color: #834843;
+    }        
     #home{
-            margin-left: -1.5em;
-            height: 2em;
-        }
+        margin-left: -1.5em;
+        height: 2em;
+        background-color: 0.1;
+    }
+
+    .tablon{
+        margin-top: 6em;
+        height: 22em;
+    }
+    .img-tablon{
+        
+        display: none;
+    }
+    .arrows{
+        justify-content: center;
+        width: 19.2em;
+        height: 16.8em;
+        margin-top: 0em;
+    }
+        
+    .img-tablon2{
+        margin-left: 2em;
+        display: flex;
+        height: 20em;
+        width: 20em;
+        opacity: 0.5;
+    }
+    .informacion-inf{
+        display: flex;
+        flex-direction: column;
+    }
+    .presentacion{
+        background-image: url(/Img/papiro1wrcat.png);
+        width: 25em;
+        height: 42em;
+        margin-top: 0;
+        margin-left: 2em;
+    }
     .texto{
-            margin-top: 10em;
-        }
+            margin-top: -2em;
+    }
+
+    .horario{
+        margin-top: 26em;
+        margin-left: -60em;
+        width: 25em;
+        height: 25em;
+        
+    }
+    .textoh{
+
+        margin-left: 0em;
+        font-size: medium;
+        width: 30em;
+    }
+    .visitanos{
+        text-align: center;
+        margin-top: -3em;
+        margin-left: 2em;
+    }
+    .footer{
+        margin-left: 0em;
+        margin-top: 20em;
+        
+        
+    }
 }

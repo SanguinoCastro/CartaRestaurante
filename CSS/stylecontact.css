@@ -1,0 +1,524 @@
+/* Añadimos las fuentes a la pagina */
+@font-face {
+    font-family: 'pirate';
+    src: url(../font/Treasuremap-Ea1vj.ttf);
+}
+
+@font-face {
+    font-family: 'chocolate';
+    src: url(../font/PiecesNfi-LrOn.ttf);
+}
+/* Añadimos fondo al cuerpo de la página */
+body{
+    background-image: url(../Img/background1.jpg);
+    background-size: cover;
+}
+/* Quitamos todos los efectos de las listas */
+li{
+    list-style: none;
+}
+/* Creamos la cabecera con todo lo que irá dentro */
+.cabecera{
+    display:flex;
+    justify-content: space-between;
+    width: 100vw;
+    margin-left: -2em;    
+}
+/* Titulo de pantalla completa */
+.title{
+    position: absolute;
+    height: 25em;
+    margin-top: -4.5em;
+    margin-left: -11em;
+}
+/* Titulo de pantalla reducida 'tlf' */
+.title2{
+    display:none;
+    height: 30em;
+    margin-top: -4.5em;
+}
+/* el logo */
+.logo{
+    width: 20em; 
+    margin-left: 15em;
+}
+/* El ul de los botones de comprar, usuario e idiomas */
+.boton-der{
+    display: flex;
+    margin-right: 5em;
+    margin-top: 3em;
+}
+/* bóton cofre de comprar con su hover*/
+#sell{
+    background-image: url(../Img/chest.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 3em;
+    width: 3em;
+    margin-top: 0.35em;
+    opacity: 0.7;
+    /* border: 0.1em solid black; */
+}
+
+#sell:hover{
+    background-image: url(../Img/chesthover.png);
+    opacity: 1;
+}
+
+/* botón usuario con su hover*/
+#user{
+    background-image: url(../Img/user.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 3.5em;
+    width: 3.5em;
+    margin-left: -1.5em;
+    margin-top: -0.2em;
+    opacity:0.75;
+}
+
+#user:hover{
+    opacity: 1;
+}
+
+/* botón de idioma con su hover */
+.lenguaje{
+    width: 2.5em;
+    opacity: 0.75;
+}
+
+.lenguaje:hover{
+    opacity: 1;
+}
+
+/* Modificamos un poco las clases de bootstrap btb y dropdown-item con su hover */
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background: none;
+    border:0;
+    margin-top: 1em;
+    margin-left: -0.5em;
+    border-radius: 3em;
+    width: 2.4em; 
+    height: 2.4em;
+}
+
+.dropdown-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4em;
+    margin-left: 1em;
+}
+.dropdown-item:hover{
+    background: none;
+}
+
+/* modificamos el desplegable y las imagenes de dentro */
+.idiomas{
+    background:none;
+    border: 0;
+    height: 10em;
+    width: 5em;
+}
+
+.idiomas:hover{
+    background: none;
+}
+
+.skull-lenguage{
+    height: 5em;
+}
+
+/* Ponemos estilo al menú central que se quedará todo el rato visible (propiedad dada por bootstrap) */
+#menu_sup{
+    display: flex;
+    justify-items:center;
+    height: 10em;
+    margin-top: -6em;
+}
+
+/* ponemos estilo al ul de los botones del navbar */
+.botones-centro{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-image: url(../Img/menu.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-radius: 0em;
+    padding: 1em;
+    height: 6em;
+    width: 35em;
+}
+
+/* Ya que bootstrap no tiene la opción modificamos para que el navbar quede en el centro */
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+/* Modificamos los botones centrales y su hover*/
+.sup_buttons{
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    font-family: pirate;
+    padding: 0.2em;
+    margin-top: 1em;
+    margin-left: -0.5em;
+    height: 2.5em;
+}
+
+.sup_buttons:hover{
+    background-image: url(../Img/hover.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-shadow:  -1px 0 white, 0 1px white,
+    1px 0 white, 0 -1px white;
+    color: black;
+    font-weight: bolder;
+}
+
+/* damos estilo al botón Home que no es clicable ya que estamos en él */
+#home{
+    background-image: url(../Img/Home.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 3em;
+    height: 2.7em;
+    /* border: 0.1em solid black; */
+    align-self: center;
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+
+#home:hover{
+    background-image: url(../Img/homehover.png);
+}
+
+#homeactive{
+    background-image: url(../Img/homehover.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 3em;
+    height: 2.7em;
+    /* border: 0.1em solid black; */
+    align-self: center;
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+
+    /* Empezamos el carrousel */
+.tablon{
+    /* border: 0.1em solid black; */
+    width: 80%;
+    height: 40%;
+    margin-left: 10%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.img-tablon{
+    height: 40em;
+    width: 100em;    
+}
+
+.img-tablon2{
+    display: none;
+}
+
+.arrows{
+    display: flex;
+    justify-content: space-around;  
+}
+
+
+    /* Divs texto presentación */
+
+.informacion-inf{
+    font-family: pirate;
+    display: flex;
+    justify-content: space-around;
+}
+
+.presentacion{
+    
+    display: flex;
+    justify-content: center;
+    background-image: url(../Img/papirowrt.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin-top: 2em;
+    margin-left: 10em;
+    width: 50em;
+    height: 55em;
+}
+
+.texto{
+    text-align: center;
+    padding: 5em;
+    margin-left: 50em;
+    width: 50%;
+    height: 40em;
+}
+
+.horario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 55em;
+    height: 45em;
+    margin-top: 2em;
+    margin-left: 30em;
+}
+.textoh{
+    padding: 5em;
+    font-size: larger;
+    margin-top: 4em;
+    width: 30em;
+}
+
+.visitanos{
+    height: 8em;
+    width: 20em;
+    margin-top: 5em;
+    margin-bottom: 40em;
+    margin-left: 5em;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    height: 4.5em;
+}
+
+.red{
+    height: 4.5em;
+}
+
+.footer{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;   
+    margin-top: 60em;
+    margin-left: -70em;
+    margin-bottom: 2em;
+    font-weight: bolder;
+    opacity: 0.75;
+}
+/* Aqui tenemos los @media para que la página sea lo mas responsive posible */
+@media(max-width: 1240px){
+     
+    .logo{
+           display: none;
+        }
+    .title{
+            display:none;
+        }    
+    .cabecera{
+            height: 15em;
+            width: 0em;
+            margin-left: -3em;
+        }    
+    .title2{
+            display:flex;
+            position:absolute;
+            height: 15em;
+            margin-top: 0;
+        }
+    .boton-der{
+            position:absolute;
+            margin-left: 13em;
+            margin-top: 5em;
+
+        }
+    #user{
+            margin-left: -1.5em;
+        }
+    .idiomas{
+            margin-top: -6em;
+            margin-left: 2em;
+        }
+    .dropdown-item{
+            margin-top: -1em;
+        }
+}
+@media(max-width: 991px){
+
+    .cabecera{
+            height: 15em;
+            width: 0em;
+            margin-left: -3em;
+        }
+    .title2{
+            display:flex;
+            position:absolute;
+            height: 15em;
+            margin-top: 0;
+    }
+    .icons{
+            width: 2em;
+            margin-left: -1.5em;
+    }
+    #user{
+            width: 2.5em;
+            margin-left: -1.5em;
+    }
+    #sell{
+            width: 2.5em;
+    }
+    .collapse1{
+            height: 2em;
+    }
+    .boton-der{
+            position:absolute;
+            margin-left: 15em;
+            margin-top: 5em;
+    }
+    .botones-centro{
+            position: absolute;
+            background-image: url(../Img/menu1.png);
+            margin-left: -2em;
+            padding: -30em;
+            height: 21em;
+            width: 11em;            
+    }
+    .desplegable-idiomas{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 5em;
+            height: 10em;
+    }
+    .skull-lenguage{
+        height: 4em;
+    }
+    .btn{
+            width: 2.1em; 
+            height: 2.1em;
+    }
+    .icons{
+        margin-left: 0.05em;
+    }
+    .idiomas{  
+        height: 8em;
+        margin-left: -2.1em;
+        margin-top: 1em; 
+    }
+    #menu_sup{
+        margin-top: 8em;
+        margin-left: 12em;
+        height: 10em;
+        width: 8em;
+    }
+    .menu{
+        display: flex;
+        justify-content: end;
+        margin-top: 5em;
+        margin-left: -20em;
+    }
+
+    .boton-collapse{
+        margin-top: -12em;
+    }
+    .collapse1{
+        margin-left: -9em;
+        margin-top: 0em;
+    }
+    .sup_buttons{
+        width: 5em;
+         height: 1em;
+        margin-top: -1em;
+        font-size: 1em;      
+    }
+    .sup_buttons:hover{
+        background-image:none;
+        font-family: chocolate;
+        font-size:small;
+        margin-left: -2em;
+        color: #834843;
+    }        
+    #home{
+        margin-left: -1.5em;
+        height: 2em;
+        background-color: 0.1;
+    }
+
+    #homeactive{
+        margin-left: -1.5em;
+        height: 2em;
+        background-color: 0.1;
+    }
+
+    .tablon{
+        margin-top: 6em;
+        height: 22em;
+    }
+    .img-tablon{
+        
+        display: none;
+    }
+    .arrows{
+        justify-content: center;
+        width: 19.2em;
+        height: 16.8em;
+        margin-top: 0em;
+    }
+        
+    .img-tablon2{
+        margin-left: 2em;
+        display: flex;
+        height: 20em;
+        width: 20em;
+        opacity: 0.5;
+    }
+    .informacion-inf{
+        display: flex;
+        flex-direction: column;
+    }
+    .presentacion{
+        background-image: url(../Img/papiro1wr.png);
+        width: 25em;
+        height: 42em;
+        margin-top: 0;
+        margin-left: 2em;
+    }
+    .texto{
+            margin-top: -2em;
+    }
+
+    .horario{
+        margin-top: 26em;
+        margin-left: -60em;
+        width: 25em;
+        height: 25em;
+        
+    }
+    .textoh{
+
+        margin-left: 0em;
+        font-size: medium;
+        width: 30em;
+    }
+    .visitanos{
+        text-align: center;
+        margin-top: -3em;
+        margin-left: 2em;
+    }
+    .footer{
+        margin-left: 0em;
+        margin-top: 20em;
+        
+        
+    }
+}

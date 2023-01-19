@@ -201,6 +201,23 @@ li{
     margin-left: 1em;
 }
 
+#home:hover{
+    background-image: url(../Img/homehover.png);
+}
+
+#homeactive{
+    background-image: url(../Img/homehover.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 3em;
+    height: 2.7em;
+    /* border: 0.1em solid black; */
+    align-self: center;
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+
     /* Empezamos el carrousel */
 .tablon{
     /* border: 0.1em solid black; */
@@ -244,8 +261,8 @@ li{
     background-size:contain;
     margin-top: 2em;
     margin-left: 10em;
-    /* width: 50em;
-    height: 55em; */
+    width: 50em;
+    height: 55em;
 }
 
 .texto{
@@ -286,26 +303,18 @@ li{
     height: 4.5em;
 }
 
-.facebook{
-    background-image: url(../Img/fbpirata.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-}
-.instagram{
-    background-image: url(../Img/igpirata.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+.red{
+    height: 4.5em;
 }
 
 .footer{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;   
     margin-top: 60em;
-    margin-left: -70em;
-    margin-bottom: 2em;
     font-weight: bolder;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
     opacity: 0.75;
 }
 /* Aqui tenemos los @media para que la página sea lo mas responsive posible */
@@ -446,8 +455,14 @@ li{
         background-color: 0.1;
     }
 
+    #homeactive{
+        margin-left: -1.5em;
+        height: 2em;
+        background-color: 0.1;
+    }
+
     .tablon{
-        margin-top: 10em;
+        margin-top: 6em;
         height: 22em;
     }
     .img-tablon{
@@ -473,7 +488,7 @@ li{
         flex-direction: column;
     }
     .presentacion{
-        background-image: url(../Img/papiro1.png);
+        background-image: url(../Img/papiro1wr.png);
         width: 25em;
         height: 42em;
         margin-top: 0;
@@ -484,7 +499,7 @@ li{
     }
 
     .horario{
-        margin-top: 35em;
+        margin-top: 26em;
         margin-left: -60em;
         width: 25em;
         height: 25em;
@@ -499,10 +514,10 @@ li{
     .visitanos{
         text-align: center;
         margin-top: -3em;
+        margin-left: 2em;
     }
     .footer{
-        margin-left: 0em;
-        margin-top: 30em;
+        margin-top: 85em;
         
         
     }
