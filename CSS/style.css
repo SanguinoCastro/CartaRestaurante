@@ -334,191 +334,190 @@ li{
     .title2{
             display:flex;
             position:absolute;
-            height: 15em;
+            height: 17em;
             margin-top: 0;
-        }
-    .boton-der{
-            position:absolute;
-            margin-left: 13em;
-            margin-top: 5em;
-
-        }
-    #user{
-            margin-left: -1.5em;
-        }
-    .idiomas{
-            margin-top: -6em;
-            margin-left: 2em;
-        }
-    .dropdown-item{
-            margin-top: -1em;
-        }
-}
-@media(max-width: 991px){
-
-    .cabecera{
-            height: 15em;
-            width: 0em;
-            margin-left: -3em;
-        }
-    .title2{
-            display:flex;
-            position:absolute;
-            height: 15em;
-            margin-top: 0;
-    }
-    .icons{
-            width: 2em;
-            margin-left: -1.5em;
-    }
-    #user{
-            width: 2.5em;
-            margin-left: -1.5em;
-    }
-    #sell{
-            width: 2.5em;
-    }
-    .collapse1{
-            height: 2em;
     }
     .boton-der{
             position:absolute;
             margin-left: 15em;
             margin-top: 5em;
-    }
-    .botones-centro{
-            position: absolute;
-            background-image: url(../Img/menu1.png);
-            margin-left: -2em;
-            padding: -30em;
-            height: 21em;
-            width: 11em;            
-    }
-    .desplegable-idiomas{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 5em;
-            height: 10em;
-    }
-    .skull-lenguage{
-        height: 4em;
-    }
-    .btn{
-            width: 2.1em; 
-            height: 2.1em;
-    }
-    .icons{
-        margin-left: 0.05em;
-    }
-    .idiomas{  
-        height: 8em;
-        margin-left: -2.1em;
-        margin-top: 1em; 
-    }
-    #menu_sup{
-        margin-top: 8em;
-        margin-left: 12em;
-        height: 10em;
-        width: 8em;
-    }
-    .menu{
-        display: flex;
-        justify-content: end;
-        margin-top: 5em;
-        margin-left: -20em;
-    }
 
+    }
     .boton-collapse{
-        margin-top: -12em;
+            margin-left: -3.5em;
     }
-    .collapse1{
-        margin-left: -9em;
-        margin-top: 0em;
-    }
-    .sup_buttons{
-        width: 5em;
-         height: 1em;
-        margin-top: -1em;
-        font-size: 1em;      
-    }
-    .sup_buttons:hover{
-        background-image:none;
-        font-family: chocolate;
-        font-size:small;
-        margin-left: -2em;
-        color: #834843;
-    }        
-    #home{
+    #user{
         margin-left: -1.5em;
-        height: 2em;
-        background-color: 0.1;
+        width: 2.5em;
     }
+    #sell{
+        width: 2.5em;
+    }
+    .lenguaje{
+        width: 2.25em;
+    }
+    .idiomas{
+            margin-top: -6em;
+            margin-left: 2em;
+    }
+    .dropdown-item{
+            margin-top: -1em;
+     }
+}
+@media(max-width: 991px){
 
-    #homeactive{
-        margin-left: -1.5em;
-        height: 2em;
-        background-color: 0.1;
-    }
+.cabecera{
+    height: 15em;
+    width: 0em;
+    margin-left: -3em;
+}
+.icons{
+    width: 2em;
+    margin-left: -1.5em;
+}
+#user{
+    width: 2em;
+}
+#sell{
+    width: 2em;
+}
+.lenguaje{
+    width: 1.7em;
+}
+.collapse1{
+    height: 2em;
+}
+.boton-der{
+    position:absolute;
+    margin-left: 15em;
+    margin-top: 5em;
+}
+.botones-centro{
+    position: absolute;
+    background-image: url(../Img/menu1.png);
+    margin-left: -2em;
+    padding: -30em;
+    height: 21em;
+    width: 11em;            
+}
+.desplegable-idiomas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5em;
+    height: 10em;
+}
+.skull-lenguage{
+    height: 4em;
+}
+.btn{
+    width: 2.1em; 
+    height: 2.1em;
+}
+.icons{
+    margin-left: 0.05em;
+}
+.idiomas{  
+    height: 8em;
+    margin-left: -2.1em;
+    margin-top: 1em; 
+}#menu_sup{
+    margin-top: 8em;
+    margin-left: 12em;
+    height: 10em;
+    width: 8em;
+}
+.menu{
+    display: flex;
+    justify-content: end;
+    margin-top: 5em;
+    margin-left: -20em;
+}
 
-    .tablon{
-        margin-top: 6em;
-        height: 22em;
-    }
-    .img-tablon{
-        
-        display: none;
-    }
-    .arrows{
-        justify-content: center;
-        width: 19.2em;
-        height: 16.8em;
-        margin-top: 0em;
-    }
-        
-    .img-tablon2{
-        margin-left: 2em;
-        display: flex;
-        height: 20em;
-        width: 20em;
-        opacity: 0.5;
-    }
-    .informacion-inf{
-        display: flex;
-        flex-direction: column;
-    }
-    .presentacion{
-        background-image: url(../Img/papiro1wr.png);
-        width: 25em;
-        height: 42em;
-        margin-top: 0;
-        margin-left: 2em;
-    }
-    .texto{
-            margin-top: -2em;
-    }
+.boton-collapse{
+    margin-top: -12em;
+}
+.collapse1{
+    margin-left: -9em;
+    margin-top: 0em;
+}
+.sup_buttons{
+    width: 5em;
+    height: 1em;
+    margin-top: -1em;
+    font-size: 1em;      
+}
+.sup_buttons:hover{
+    background-image:none;
+    font-family: chocolate;
+    font-size:small;
+    margin-left: -2em;
+    color: #834843;
+}        
+#home{
+    margin-left: -1.5em;
+    height: 2em;
+    background-color: 0.1;
+}
 
-    .horario{
-        margin-top: 26em;
-        margin-left: -60em;
-        width: 25em;
-        height: 25em;
-        
-    }
-    .textoh{
+#homeactive{
+    margin-left: -1.5em;
+    height: 2em;
+    background-color: 0.1;
+}
 
-        margin-left: 0em;
-        font-size: medium;
-        width: 30em;
-    }
-    .visitanos{
-        text-align: center;
-        margin-top: -3em;
-        margin-left: 2em;
-    }
-    .footer{
-        margin-top: 85em;
-        
-        
-    }
+.tablon{
+    margin-top: 6em;
+    height: 22em;
+}
+.img-tablon{   
+    display: none;
+}
+.arrows{
+    justify-content: center;
+    width: 19.2em;
+    height: 16.8em;
+    margin-top: 0em;
+}        
+.img-tablon2{
+    margin-left: 2em;
+    display: flex;
+    height: 20em;
+    width: 20em;
+    opacity: 0.5;
+}
+.informacion-inf{
+    display: flex;
+    flex-direction: column;
+}
+.presentacion{
+    background-image: url(../Img/papiro1wr.png);
+    width: 25em;
+    height: 42em;
+    margin-top: 0;
+    margin-left: 2em;
+}
+.texto{
+    margin-top: -2em;
+}
+
+.horario{
+    margin-top: 26em;
+    margin-left: -60em;
+    width: 25em;
+    height: 25em;
+}
+.textoh{
+    margin-left: 0em;
+    font-size: medium;
+    width: 30em;
+}
+.visitanos{
+    text-align: center;
+    margin-top: -3em;
+    margin-left: 2em;
+}
+.footer{
+    margin-top: 85em;
+}
 }

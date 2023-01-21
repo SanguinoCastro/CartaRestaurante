@@ -93,7 +93,7 @@ li{
     opacity: 1;
 }
 
-/* Modificamos un poco las clases de bootstrap btb y dropdown-item con su hover */
+/* Modificamos un poco las clases de bootstrap btn y dropdown-item con su hover */
 .btn{
     display: flex;
     align-items: center;
@@ -277,12 +277,10 @@ li{
     position: absolute;
     width: 20em;
     height: 20em;
-    margin-top: 55em;
-    margin-left: 65em;
+    margin-top: 40em;
+    margin-left: 25em;
 }
 .coffe{
-    margin-left: -1em;
-    margin-top: 3.5em;
     width: 20em;
     opacity: 0.78;
 }
@@ -290,15 +288,15 @@ li{
     position: absolute;
     width: 20em;
     height: 20em;
-    margin-top: 25em;
-    margin-left: 35em;
+    margin-top: 12em;
+    margin-left: -2em;
 }
 .churros{
     position: absolute;
     width: 20em;
     height: 20em;
-    margin-top: 10em;
-    margin-left: 68em;
+    margin-top: -5em;
+    margin-left: 32em;
 }
 
 .churro{
@@ -311,8 +309,8 @@ li{
     position: absolute;
     width: 20em;
     height: 20em;
-    margin-top: 75em;
-    margin-left: 38em;
+    margin-top: 60em;
+    margin-left: 2em;
 }
 
 .croissant{
@@ -337,38 +335,45 @@ li{
 @media(max-width: 1240px){
      
     .logo{
-           display: none;
-        }
+        display: none;
+    }
     .title{
-            display:none;
-        }    
+        display:none;
+    }    
     .cabecera{
-            height: 15em;
-            width: 0em;
-            margin-left: -3em;
-        }    
+        height: 15em;
+        width: 0em;
+        margin-left: -3em;
+    }    
     .title2{
-            display:flex;
-            position:absolute;
-            height: 15em;
-            margin-top: 0;
-        }
+        display:flex;
+        position:absolute;
+        height: 17em;
+        margin-top: 0;
+    }
     .boton-der{
-            position:absolute;
-            margin-left: 13em;
-            margin-top: 5em;
+        position:absolute;
+        margin-left: 15em;
+        margin-top: 5em;
 
-        }
+    }
     .boton-collapse{
-            margin-left: -3.5em;
-        }
+        margin-left: -3.5em;
+    }
     #user{
-            margin-left: -1.5em;
-        }
+        margin-left: -1.5em;
+        width: 2.5em;
+    }
+    #sell{
+        width: 2.5em;
+    }
+    .lenguaje{
+        width: 2.25em;
+    }
     .idiomas{
-            margin-top: -6em;
-            margin-left: 2em;
-        }
+        margin-top: -6em;
+        margin-left: 2em;
+    }
     .dropdown-item{
             margin-top: -1em;
         }
@@ -393,6 +398,28 @@ li{
     .col-4{
         width: 25em;
     }
+    .churros{
+        margin-left: 40em;
+    }
+    .churro{
+        width: 8em;
+    }
+    .chocolate{
+        margin-left: 35em;
+    }
+    .cafe{
+        margin-left: 35em;
+    }
+    .coffe{
+        width: 15em;
+    }
+    .croasan{
+        margin-left: 30em;
+        margin-top: 52em;
+    }
+    .croissant{
+        width: 15em;
+    }
 }
 @media(max-width: 991px){
 
@@ -401,38 +428,35 @@ li{
             width: 0em;
             margin-left: -3em;
         }
-    .title2{
-            display:flex;
-            position:absolute;
-            height: 15em;
-            margin-top: 0;
-    }
+    
     .icons{
             width: 2em;
             margin-left: -1.5em;
     }
     #user{
-            width: 2.5em;
-            margin-left: -1.5em;
+            width: 2em;
     }
     #sell{
-            width: 2.5em;
+            width: 2em;
+    }
+    .lenguaje{
+        width: 1.7em;
     }
     .collapse1{
-            height: 2em;
+        height: 2em;
     }
     .boton-der{
-            position:absolute;
-            margin-left: 15em;
-            margin-top: 5em;
+        position:absolute;
+        margin-left: 15em;
+         margin-top: 5em;
     }
     .botones-centro{
-            position: absolute;
-            background-image: url(../Img/menu1.png);
-            margin-left: -2em;
-            padding: -30em;
-            height: 21em;
-            width: 11em;            
+        position: absolute;
+        background-image: url(../Img/menu1.png);
+        margin-left: -2em;
+        padding: -30em;
+        height: 21em;
+        width: 11em;            
     }
     .desplegable-idiomas{
             display: flex;
@@ -457,7 +481,7 @@ li{
         margin-top: 1em; 
     }
     #menu_sup{
-        margin-top: 8em;
+        margin-top: 10em;
         margin-left: 12em;
         height: 10em;
         width: 8em;
