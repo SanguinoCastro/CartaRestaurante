@@ -1,16 +1,16 @@
 /* Añadimos las fuentes a la pagina */
 @font-face {
     font-family: 'pirate';
-    src: url(../font/Treasuremap-Ea1vj.ttf);
+    src: url(/font/Treasuremap-Ea1vj.ttf);
 }
 
 @font-face {
     font-family: 'chocolate';
-    src: url(../font/PiecesNfi-LrOn.ttf);
+    src: url(/font/PiecesNfi-LrOn.ttf);
 }
 /* Añadimos fondo al cuerpo de la página */
 body{
-    background-image: url(../Img/background1.jpg);
+    background-image: url(/Img/background1.jpg);
     background-size: cover;
 }
 /* Quitamos todos los efectos de las listas */
@@ -50,7 +50,7 @@ li{
 }
 /* bóton cofre de comprar con su hover*/
 #sell{
-    background-image: url(../Img/chest.png);
+    background-image: url(/Img/chest.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -62,13 +62,13 @@ li{
 }
 
 #sell:hover{
-    background-image: url(../Img/chesthover.png);
+    background-image: url(/Img/chesthover.png);
     opacity: 1;
 }
 
 /* botón usuario con su hover*/
 #user{
-    background-image: url(../Img/user.png);
+    background-image: url(/Img/user.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -148,7 +148,7 @@ li{
     display: flex;
     align-items: center;
     justify-items: center;
-    background-image: url(../Img/menu.png);
+    background-image: url(/Img/menu.png);
     background-size:contain;
     background-repeat: no-repeat;
     border-radius: 0em;
@@ -177,7 +177,7 @@ li{
 }
 
 .sup_buttons:hover{
-    background-image: url(../Img/hover.png);
+    background-image: url(/Img/hover.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -189,7 +189,7 @@ li{
 
 /* damos estilo al botón Home que no es clicable ya que estamos en él */
 #home{
-    background-image: url(../Img/Home.png);
+    background-image: url(/Img/Home.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -202,11 +202,11 @@ li{
 }
 
 #home:hover{
-    background-image: url(../Img/homehover.png);
+    background-image: url(/Img/homehover.png);
 }
 
 #homeactive{
-    background-image: url(../Img/homehover.png);
+    background-image: url(/Img/homehover.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -256,7 +256,7 @@ li{
     
     display: flex;
     justify-content: center;
-    background-image: url(../Img/papirowrt.png);
+    background-image: url(/Img/papirowrt.png);
     background-repeat: no-repeat;
     background-size:contain;
     margin-top: 2em;
@@ -394,7 +394,7 @@ li{
 }
 .botones-centro{
     position: absolute;
-    background-image: url(../Img/menu1.png);
+    background-image: url(/Img/menu1.png);
     margin-left: -2em;
     padding: -30em;
     height: 21em;
@@ -491,7 +491,7 @@ li{
     flex-direction: column;
 }
 .presentacion{
-    background-image: url(../Img/papiro1wr.png);
+    background-image: url(/Img/papiro1wr.png);
     width: 25em;
     height: 42em;
     margin-top: 0;

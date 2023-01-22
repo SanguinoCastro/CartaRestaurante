@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     
     <link href="CSS/style.css" rel="stylesheet" type="text/css">
+    <link href="CSS/stylecontacto.css" rel="stylesheet" type="text/css">
     <title>Los Churros de Bink's</title>
 </head>
 <body>
@@ -36,8 +37,7 @@
             </button>
             <div class="desplegable-idiomas">
               <div class="dropdown-menu idiomas" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="./idiomas/catala/catala.html"><img class="skull-lenguage" src="./Img/catalan.png" alt="Català"></a>
-                  <a class="dropdown-item" href="./idiomas/english/eng.html"><img class="skull-lenguage" src="./Img/eng.png" alt="English"> </a>
+                <a class="dropdown-item" href="./idiomas/catala/contacte.html"><img class="skull-lenguage" src="./Img/catalan.png" alt="Català"></a>
               </div>
             </div>
           </div>  
@@ -57,17 +57,17 @@
       
         <div class="collapse navbar-collapse menu " id="navbarTogglerDemo01">
           <ul class="navbar-nav navbar-center mr-auto mt-2 mt-lg-0 botones-centro">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"><p class="sup_buttons" id="home"></p><span class="sr-only"></span></a>
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html"><p class="sup_buttons" id="home"></p><span class="sr-only"></span></a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" href="#"><p class="sup_buttons">Carta</p></a>
+              <a class="nav-link" href="/menu.html"><p class="sup_buttons">Carta</p></a>
             </li>
             <li class="nav-item ">
                 <a class="nav-link" href="#"><p class="sup_buttons">TakeAway</p></a>
             </li>
-            <li class="nav-item ">
-                <a class="nav-link" href="#"><p class="sup_buttons">Contacto</p></a>
+            <li class="nav-item active">
+                <a class="nav-link" href="#"><p class="sup_button">Contacto</p></a>
             </li>
           </ul>          
         </div>
@@ -75,103 +75,116 @@
     </nav>
   </div>
 
-          <!-- Carrusel -->
+  <div class="info">
+    
+    <iframe class="maps" src="https://maps.google.com/maps?q=Carrer%20d'Amadeu,%2041,%2008370%20Calella,%20Barcelona&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
 
-  <div class="tablon">
-    <div id="carrousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carrousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carrousel" data-slide-to="1"></li>
-        <li data-target="#carrousel" data-slide-to="2"></li>
-        <li data-target="#carrousel" data-slide-to="3"></li>
-        <li data-target="#carrousel" data-slide-to="4"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./Img/churroschoco.jpg" alt="Churroschoco" class="  img-tablon">
-          <img src="./Img/catalan.png" alt="Churroschoco" class=" img-tablon2">
+    <div class="contact-cont row">
+
+      <div class=" contact col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <div class="contact-icon">
+          <img class="icon location" src="/Img/ubi.png" alt="Ubicación">
         </div>
-        <div class="carousel-item">
-          <img src="./Img/bolleria.jpg" alt="Bolleria" class=" img-tablon">
-          <img src="./Img/catalan.png" alt="Churroschoco" class=" img-tablon2">
+        <div class="info-text">
+          <p>C/ d'Amadeu 41, 08370 <br>
+              Calella</p>
         </div>
-        <div class="carousel-item">
-          <img src="./Img/takeaway.jpg" alt="TakeAway" class=" img-tablon">
-          <img src="./Img/catalan.png" alt="Churroschoco" class=" img-tablon2">
+      </div>
+
+      <div class="contact col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <div class="contact-icon">
+          <div class="contact-icon"><img class="icon" src="/Img/tlf.png" alt="Teléfono"></div>
         </div>
-        <div class="carousel-item">
-          <img src="./Img/Churrohand.jpg" alt="Churros" class=" img-tablon">
-          <img src="./Img/catalan.png" alt="Churroschoco" class=" img-tablon2">
-        </div>
-        <div class="arrows">
-          <div >
-            <a href="#carrousel" class="carousel-control-prev" id="arrowI" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden"></span>
-            </a>
-          </div>
-          <div >
-            <a href="#carrousel" class="carousel-control-next"  id="arrowD" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden"></span>
-            </a>
+        <div class="info-text">
+          <div class="info-text">
+            <p>(+34) 93 777 77 77</p>
           </div>
         </div>
       </div>
-    </div> 
+
+      <div class="contact col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <div class="contact-icon">
+          <div class="contact-icon"><img class="icon calendary" src="/Img/calendar.png" alt="Reservas"></div>
+        </div>
+        <div class="info-text">
+          <a href="#" class="nav-link">churrosdebinks@binks.com</a>
+        </div>
+      </div>
+    </div>
   </div>
 
-      <!-- Presentacion -->
-  <div class="container-fluid informacion-inf">
-    <div class="container presentacion">
-      <div class="texto">
-        <!-- <h1>¡Arrg Grumete!</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos nam ad necessitatibus placeat repellat eaque ipsa fugiat sit, exercitationem fugit cum accusamus! Nesciunt molestiae, iure possimus nihil esse facilis eaque?Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi temporibus nisi corrupti laboriosam eos, neque aut quam sint error e</p>
-      </div> -->
-    </div>
-    <div container class="horario">
-      <div class="textoh">
-        <h1>Horario</h1>
-        <p><br><br>Lunes a Viernes de 8 a.m a 12 a.m y de 16 p.m a 19 p.m
-          <br><br>
-          Sabados y Domingos de 6 a.m a 16 p.m
-        </p>
-      </div>
-      <div class="container visitanos">
-        <h2>Visitanos en:</h2>
-          <div class="container redes">
-            
-            <div class ="container">
-              <a href="https://www.facebook.com/"><img class="red" src="./Img/fbpirata.png" alt="Facebook"></a>
-            </div>
-            <div class ="container">
-              <a href="https://instagram.com/vidacoffeeroast?igshid=YmMyMTA2M2Y="><img class="red" src="./Img/igpirata.png" alt="Instagram"></a>
+    <!-- Formulario  -->
+
+  <div class="formulario-cont">
+    <div>
+
+    <form class="needs-validation" novalidate>
+      <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label for="validationCustom01">Nombre</label>
+          <input type="text" class="form-control" id="validationCustom01" value="" required>
+          <div class="valid-feedback">
+            ¡Verificado!
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="validationCustom02">Telefono</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="validationTooltipUsernamePrepend">(+34)</span></div>
+            <input type="tel" minlength="9" maxlength="9" class="form-control" id="validationCustom02" value="" required>
+            <div class="valid-feedback">
+              ¡Verificado!
             </div>
           </div>
+        </div>
       </div>
+
+      <div class="mb-3">
+        <label for="validationCustom01">Textarea</label>
+        <textarea class="form-control" id="validationCustom01" placeholder="" required></textarea>
+        <div class="invalid-feedback">
+          Please enter a message in the textarea.
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+          <label class="form-check-label" for="invalidCheck">
+            Acepta los Terminos y condiciones
+          </label>
+          <div class="invalid-feedback">
+            Debes aceptar los terminos para enviar.
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-primary enviar" type="submit">Enviar</button>
+    </form>
+  </div>
+  </div>
+  <div class="visitanos-cont">
+    <div class="visitanos">
+      <h2>Visitanos en:</h2>
+        <div class="container redes">
+        
+          <div class ="container">
+            <a href="https://www.facebook.com/"><img class="red" src="./Img/fbpirata.png" alt="Facebook"></a>
+          </div>
+          <div class ="container">
+            <a href="https://instagram.com/vidacoffeeroast?igshid=YmMyMTA2M2Y="><img class="red" src="./Img/igpirata.png" alt="Instagram"></a>
+          </div>
+        </div>
     </div>
   </div>
 
   <footer class="container footer">© LosChurrosdeBinks.S.A. 2023</footer>
-
-         
-          <!-- Texto temporal -->
-    <!-- <div class="texto"> -->
-        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque a, praesentium, quis illo, quae blanditiis nisi repellat voluptas fugiat iusto fugit consequuntur asperiores. Quo voluptatem omnis in atque optio sint?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione ipsam doloribus, iusto tempora ex, doloremque quae rem exercitationem minima tenetur labore porro numquam delectus ipsa nisi eum harum quod. Tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor ipsam dolore laborum amet dolorem saepe ad ratione! Dolores expedita amet magnam, aut fugit magni esse? Nisi amet recusandae numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum, culpa quos sint explicabo consequatur optio non nesciunt? Neque debitis culpa, omnis tenetur deleniti sequi. Quidem aperiam voluptas excepturi iste.</p> -->
-      <!-- </div> -->
-
-
 
 
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-    <script src="./JS/main.js"></script>
+    <script src="/JavaScript/main.js"></script>
 </body>
 </html>
