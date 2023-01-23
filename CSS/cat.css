@@ -1,0 +1,14 @@
+
+.presentacion {
+    background-image: url(/Img/papirowrtcat.png);
+}
+
+@media(max-width: 991px) {
+    .presentacion{
+        background-image: url(/Img/papiro1wrcat.png);
+        width: 25em;
+        height: 42em;
+        margin-top: 0;
+        margin-left: 2em;
+    }
+}
