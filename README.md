@@ -1,5 +1,5 @@
 <a name="top"></a>
-<img src= "./img/geekshubs.png" width="200"> 
+<img src= "/img/geekshubs.png" width="200"> 
 
 
 ##   Reto Carta Restaurante Digital
@@ -56,21 +56,21 @@ trate de un establecimiento de restauración.</b>
 
 <b>Para poder llevar a cabo el desarrollo frontend de la página del restaurante utilizaremos las siguientes tecnologías:</b>
 
-<img src= "./img/html5.png" width="30"> HTML5 
+<img src= "/img/html5.png" width="30"> HTML5 
 
-<img src= "./img/css.png" width="30"> CSS3 
+<img src= "/img/css.png" width="30"> CSS3 
 
-<img src= "./img/javascript.png" width="30"> JavaScript 
+<img src= "/img/javascript.png" width="30"> JavaScript 
 
 <b>El uso de Flexbox es crucial en este caso.</b>
 
 <b>También haremos uso de las siguientes herramientas:</b>
 
-<img src= "./img/visualstudio.png" width="40"> Visual Studio Code
+<img src= "/img/visualstudio.png" width="40"> Visual Studio Code
   
-<img src= "./img/git.png" width="30"> Git
+<img src= "/img/git.png" width="30"> Git
      
-<img src= "./img/github.png" width="30">GitHub
+<img src= "/img/github.png" width="30">GitHub
     
     
 <b>Se valorará especialmente la capacidad de adaptación responsive de la aplicación.</b>
