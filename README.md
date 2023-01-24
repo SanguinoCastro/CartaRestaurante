@@ -105,7 +105,7 @@ trate de un establecimiento de restauración.</b>
 <b>La página de Home también dispone de un menú superior que se mantiene en el resto de páginas y queda en pantalla en todo momento (Cuándo se encoje la pantalla queda acoplado en un icóno desplegable), seguidamente tiene un Slider con imágenes de los productos de la churreria</b>
 
 
-<img src= "/Img/web-menu.png" width="250">     <img src= "/img/web-menu2.png" width="150">
+<img src= "/Img/web-menu.png" width="250">     <img src= "/Img/web-menu2.png" width="150">
 
 <b>Si hacemos un poco de scroll, justo debajo del slider nos encontramos con la carta de presentación de la churreria, el horario, las redes sociales y el pie de página con el copyright</b>
 
@@ -120,7 +120,7 @@ trate de un establecimiento de restauración.</b>
 
 <b>La página Carta mantiene como la anterior el mismo diseño superior con su responsive, y tras los elementos comunes encontramos la carta con una imágen de background, columnas e imágenes decorativas, que a medida que la screen va reduciendose van desapareciendo el fondo y las imágenes para dejar una carta más minimalista</b>
 
-<img src= "/Img/web-carta.png" width="242"> <img src= "/img/web-carta2.png" width="200">
+<img src= "/Img/web-carta.png" width="242"> <img src= "/Img/web-carta2.png" width="200">
 
 
 #### Contacto:
@@ -131,7 +131,7 @@ trate de un establecimiento de restauración.</b>
 
 <b>Si hacemos scroll llegamos al formulario de contacto, dónde pedimos al usuario el nombre, teléfono, el mensaje que quiera mandarnos y que acepte los terminos y condiciones, donde se requerirá que el usuario rellene todos los campos y acepte los terminos para poder enviar el mensaje. Tras el formulario, volveremos a encontrar las redes sociales y la firma de copyright de la página.</b>
 
-<img src= "/Img/web-contacto2.png" width="300"> <img src= "/img/web-formulario.png" width="412">
+<img src= "/Img/web-contacto2.png" width="300"> <img src= "/Img/web-formulario.png" width="412">
 
 <a name="id5"></a>
 
