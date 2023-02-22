@@ -20,16 +20,14 @@ li {
 /* Creamos la cabecera con todo lo que irá dentro */
 .cabecera {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 100vw;
-    margin-left: -2em;    
+    margin-left: -2em;  
 }
 /* Titulo de pantalla completa */
 .title {
-    position: absolute;
-    height: 25em;
+    height: 30em;
     margin-top: -4.5em;
-    margin-left: -9.5em;
 }
 /* Titulo de pantalla reducida 'tlf' */
 .title2 {
@@ -40,7 +38,7 @@ li {
 /* el logo */
 .logo {
     width: 20em; 
-    margin-left: 15em;
+    margin-left: -40em;
 }
 /* El ul de los botones de comprar, usuario e idiomas */
 .boton-der {
@@ -48,44 +46,15 @@ li {
     margin-right: 5em;
     margin-top: 3em;
 }
-/* bóton cofre de comprar con su hover*/
-#sell {
-    background-image: url(/Img/chest.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 3em;
-    width: 3em;
-    margin-top: 0.35em;
-    opacity: 0.7;
-}
 
-#sell:hover {
-    background-image: url(/Img/chesthover.png);
-    opacity: 1;
-}
-
-/* botón usuario con su hover*/
-#user {
-    background-image: url(/Img/user.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 3.5em;
-    width: 3.5em;
-    margin-left: -1.5em;
-    margin-top: -0.2em;
-    opacity: 0.75;
-}
-
-#user:hover {
-    opacity: 1;
-}
 
 /* botón de idioma con su hover */
 .lenguaje {
-    width: 2.5em;
+    margin-top: -1em;
+    margin-left: 1em;
+    width: 2em;
     opacity: 0.75;
+    justify-content: flex-end;
 }
 
 .lenguaje:hover {
@@ -93,34 +62,39 @@ li {
 }
 
 /* Modificamos un poco las clases de bootstrap btb y dropdown-item con su hover */
-.btn {
+.boton {
+    border: 2px solid white;
+    background-image: url(../Img/world.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
     justify-items: center;
-    background: none;
     border: 0;
-    margin-top: 1em;
-    margin-left: -0.5em;
     border-radius: 3em;
-    width: 2.4em; 
-    height: 2.4em;
+    width: 2.5em; 
+    height: 2.5em;
 }
 
-.dropdown-item {
+.drop-item {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: none !important ;
     width: 4em;
     margin-left: 1em;
 }
-.dropdown-item:hover {
+.drop-item:hover {
     background: none;
 }
 
 /* modificamos el desplegable y las imagenes de dentro */
 .idiomas {
     background: none;
+    margin-left: 32em;
+    margin-top: -7em;
     border: 0;
     height: 10em;
     width: 5em;
@@ -153,7 +127,7 @@ li {
     border-radius: 0em;
     padding: 1em;
     height: 7em;
-    width: 30em;
+    width: 33em;
 }
 
 /* Ya que bootstrap no tiene la opción modificamos para que el navbar quede en el centro */
@@ -337,20 +311,20 @@ li {
     .logo {
         display: none;
     }
-    .title {
+    /* .title {
         display:none;
-    }    
-    .cabecera {
+    }     */
+    /* .cabecera {
         height: 15em;
         width: 0em;
         margin-left: -3em;
-    }    
-    .title2 {
+    }     */
+    /* .title2 {
         display: flex;
         position: absolute;
         height: 17em;
         margin-top: 0;
-    }
+    } */
     .boton-der {
         position: absolute;
         margin-left: 15em;
@@ -358,23 +332,18 @@ li {
 
     }
     .boton-collapse {
-         margin-left: -3.5em;
-    }
-    #user {
-        margin-left: -1.5em;
-        width: 2.5em;
-    }
-    #sell {
-        width: 2.5em;
+        margin-left: -3.5em;
     }
     .lenguaje {
         width: 2.25em;
+        margin-left: 1em;
+        
     }
     .idiomas {
         margin-top: -6em;
-        margin-left: 2em;
+        margin-left: 32em;
     }
-    .dropdown-item {
+    .drop-item {
         margin-top: -1em;
     }
 }
@@ -382,19 +351,18 @@ li {
 
     .cabecera {
         height: 15em;
-        width: 0em;
-        margin-left: -3em;
+        width: 100vw;
+        
+    }
+
+    .title{
+        height: 20em;
     }
     .icons {
         width: 2em;
         margin-left: -1.5em;
     }
-    #user {
-        width: 2em;
-    }
-    #sell {
-        width: 2em;
-    }
+
     .lenguaje {
         width: 1.7em;
     }
@@ -422,11 +390,15 @@ li {
         height: 10em;
     }
     .skull-lenguage {
-        height: 4em;
+        height: 3.5em;
+        margin-left: 10em;
+        margin-top: -4.5em;
     }
-    .btn {
-        width: 2.1em; 
-        height: 2.1em;
+    .boton {
+        width: 1.8em; 
+        height: 1.8em;
+        margin-top: -0.5em;
+        margin-left: 1em;
     }
     .icons {
         margin-left: 0.05em;
