@@ -87,7 +87,7 @@ trate de un establecimiento de restauración.</b>
 
 <img src= "/Img/ChurrosBinks.png" width="100">
 
-<b> Para esté proyecto queria hacer una págia distinta, decidí hacer la página web para una Churreria imáginaria: "Los Churros de Binks" , (ya que dónde vivo no hay churreria decente), quise darle una temática pirata, ya que estoy en una ciudad costera, y para ello diseñe el logo y algún icono, aparte de buscar otros por web</b>
+<b> Para esté proyecto queria hacer una página distinta, decidí hacer la página web para una Churreria imáginaria: "Los Churros de Binks" , (ya que dónde vivo no hay churreria decente), quise darle una temática pirata, ya que estoy en una ciudad costera, y para ello diseñe el logo y algún icono, aparte de buscar otros por web</b>
 
 <b>La página web tiene las tres secciones requeridas por el proyecto: Home, Carta y Contacto.</b>
 
