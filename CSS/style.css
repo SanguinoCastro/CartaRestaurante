@@ -9,32 +9,123 @@
     src: url(/font/PiecesNfi-LrOn.ttf);
 }
 /* Añadimos fondo al cuerpo de la página */
+html{
+    width: 100vw;
+    overflow-x: hidden; 
+}
 body {
     background-image: url(/Img/background1.jpg);
     background-size: cover;
+    width: 100vw;
 }
+
 /* Quitamos todos los efectos de las listas */
 li {
     list-style: none;
 }
+
+/* Quitamos el color azul de los links */
+a{
+    color: black;
+}
+ 
+.no-color{
+    color: black !important;
+}
 /* Creamos la cabecera con todo lo que irá dentro */
 .cabecera {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
     width: 100vw;
-    margin-left: -2em;  
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(/Img/menu.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#menu_sup {    
+    height: 7em;
+    width: 33em;
+}
+
+.flex{
+    display: flex;
+}
+
+
+/* Modificamos los botones centrales y su hover*/
+.sup_buttons {
+    display: flex;
+    align-items: center;
+    font-family: pirate;
+    padding: 0.1em;
+    margin-top: 1em;
+    height: 2.5em;
+    font-size: 1.5em;
+}
+
+.sup_buttons:hover {
+    background-image: url(/Img/hover.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-shadow:  -1px 0 white, 0 1px white,
+    1px 0 white, 0 -1px white;
+    color: black;
+    font-weight: bolder;
+}
+
+.sup_button {
+    font-size: 1.5em;
+}
+
+.sup_button:hover{
+    background-image: none;
+    text-shadow: none;
+    font-weight: normal;
+}
+
+/* damos estilo al botón Home*/
+#home {
+    background-image: url(/Img/Home.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 3em;
+    height: 2.7em;
+    align-self: center;
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+
+#home:hover {
+    background-image: url(/Img/homehover.png);
+}
+
+#homeactive {
+    background-image: url(/Img/homehover.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 3em;
+    height: 2.7em;
+    align-self: center;
+    margin-top: 0.5em;
+    margin-left: 1em;
 }
 /* Titulo de pantalla completa */
 .title {
     height: 30em;
     margin-top: -4.5em;
 }
-/* Titulo de pantalla reducida 'tlf' */
-.title2 {
-    display: none;
-    height: 30em;
-    margin-top: -4.5em;
-}
+
 /* el logo */
 .logo {
     width: 20em; 
@@ -47,19 +138,6 @@ li {
     margin-top: 3em;
 }
 
-
-/* botón de idioma con su hover */
-.lenguaje {
-    margin-top: -1em;
-    margin-left: 1em;
-    width: 2em;
-    opacity: 0.75;
-    justify-content: flex-end;
-}
-
-.lenguaje:hover {
-    opacity: 1;
-}
 
 /* Modificamos un poco las clases de bootstrap btb y dropdown-item con su hover */
 .boton {
@@ -106,98 +184,6 @@ li {
 
 .skull-lenguage {
     height: 5em;
-}
-
-/* Ponemos estilo al menú central que se quedará todo el rato visible (propiedad dada por bootstrap) */
-#menu_sup {
-    display: flex;
-    justify-items: center;
-    height: 10em;
-    margin-top: -6em;
-}
-
-/* ponemos estilo al ul de los botones del navbar */
-.botones-centro {
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    background-image: url(/Img/menu.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-radius: 0em;
-    padding: 1em;
-    height: 7em;
-    width: 33em;
-}
-
-/* Ya que bootstrap no tiene la opción modificamos para que el navbar quede en el centro */
-.navbar-nav.navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-}
-
-/* Modificamos los botones centrales y su hover*/
-.sup_buttons {
-    display: flex;
-    align-items: center;
-    font-size: 1.5em;
-    font-family: pirate;
-    padding: 0.2em;
-    margin-top: 1em;
-    margin-left: 1em;
-    height: 2.5em;
-}
-
-.sup_button {
-    display: flex;
-    align-items: center;
-    font-size: 1.5em;
-    font-family: pirate;
-    padding: 0.2em;
-    margin-top: 1em;
-    margin-left: 1em;
-    height: 2.5em;
-}
-
-.sup_buttons:hover {
-    background-image: url(/Img/hover.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    text-shadow:  -1px 0 white, 0 1px white,
-    1px 0 white, 0 -1px white;
-    color: black;
-    font-weight: bolder;
-}
-
-/* damos estilo al botón Home*/
-#home {
-    background-image: url(/Img/Home.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 3em;
-    height: 2.7em;
-    align-self: center;
-    margin-top: 0.5em;
-    margin-left: 1em;
-}
-
-#home:hover {
-    background-image: url(/Img/homehover.png);
-}
-
-#homeactive {
-    background-image: url(/Img/homehover.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 3em;
-    height: 2.7em;
-    align-self: center;
-    margin-top: 0.5em;
-    margin-left: 1em;
 }
 
     /* Empezamos el carrousel */
@@ -306,25 +292,24 @@ li {
 }
 
 /* Aqui tenemos los @media para que la página sea lo mas responsive posible */
-@media (max-width: 1240px) {
+@media (max-width: 1110px) {
      
     .logo {
         display: none;
     }
-    /* .title {
-        display:none;
-    }     */
-    /* .cabecera {
-        height: 15em;
-        width: 0em;
-        margin-left: -3em;
-    }     */
-    /* .title2 {
-        display: flex;
-        position: absolute;
-        height: 17em;
-        margin-top: 0;
-    } */
+    .cartel{
+        height: 25em;
+    }
+
+    #menu {
+        margin-top: -6em;
+    }
+
+  
+    .sup_buttons {
+        font-size: 1.2em;      
+    }
+    
     .boton-der {
         position: absolute;
         margin-left: 15em;
@@ -346,18 +331,10 @@ li {
     .drop-item {
         margin-top: -1em;
     }
+    
 }
-@media(max-width: 991px) {
+@media(max-width: 1100px) {
 
-    .cabecera {
-        height: 15em;
-        width: 100vw;
-        
-    }
-
-    .title{
-        height: 20em;
-    }
     .icons {
         width: 2em;
         margin-left: -1.5em;
@@ -379,8 +356,8 @@ li {
         background-image: url(/Img/menu1.png);
         margin-left: -2em;
         padding: -30em;
-        height: 21em;
-        width: 11em;            
+        height: 13em;
+        width: 11em;          
     }
     .desplegable-idiomas {
         display: flex;
@@ -408,56 +385,23 @@ li {
         margin-left: -2.1em;
         margin-top: 1em; 
     }
-    #menu_sup {
-        margin-top: 8em;
-        margin-left: 12em;
-        height: 10em;
-        width: 8em;
-    }
-    .menu {
-        display: flex;
-        justify-content: end;
-        margin-top: 5em;
-        margin-left: -20em;
-    }
-    .boton-collapse {
-        margin-top: -12em;
-    }
+
+
     .collapse1 {
         margin-left: -9em;
-        margin-top: 0em;
+        margin-top: -45em;
+        background-color: silver;
+        height: 2.45em;
     }
-    .sup_buttons {
-        width: 5em;
-        height: 1em;
-        margin-top: -1em;
-        font-size: 1em;      
+
+    .botones-centro{
+        margin-top: 10em ;
+        margin-left: -7em;
+        width: 10em;
     }
-    .sup_button{
-        width: 5em;
-        height: 1em;
-        margin-top: -1em;
-        font-size: 1em; 
-    }
-    .sup_buttons:hover {
-        background-image: none;
-        font-family: chocolate;
-        font-size: small;
-        margin-left: -2em;
-        color: #834843;
-    }        
-    #home {
-        margin-left: -1.5em;
-        height: 2em;
-        background-color: 0.1;
-    }
-    #homeactive {
-        margin-left: -1.5em;
-        height: 2em;
-        background-color: 0.1;
-    }
+    
     .tablon {
-        margin-top: 6em;
+        margin-top: em;
         height: 22em;
     }
     .img-tablon {   
@@ -487,17 +431,18 @@ li {
     }
     .texto {
         margin-top: -2em;
+        
     }
     .horario {
         margin-top: 26em;
-        margin-left: -60em;
+        margin-left: -64em;
         width: 25em;
         height: 25em;
     }
     .textoh {
         margin-left: 0em;
         font-size: medium;
-        width: 30em;
+        width: 22em;
     }
     .visitanos {
         text-align: center;
@@ -507,4 +452,21 @@ li {
     .footer {
         margin-top: 85em;
     }
+    
+}
+
+@media(max-width: 615px) {
+
+    .cabecera{
+        justify-content: space-between;
+    }
+
+    #menu_sup {
+        width: 86vw;
+    }
+
+    .title{
+        width: 86vw;
+    }
+
 }

@@ -14,57 +14,36 @@
 </head>
 
 <body>
-  <!-- Cabecero con logo, nombre y menú de usuario idiomas y compras   -->
+  <!-- Cabecero nombre y menú -->
   <form>
     <ul class=" cabecera">
-      <li>
+      <li class="cartel">
         <img class="title" src="./Img/title2.png" alt="Los Churros de Binks">
       </li>
-    </ul>
-  </form>
-
-  <!-- Barra de menú que se mantiene en pantalla -->
-
-  <div class="boton-collapse sticky-top">
-    <nav class="navbar navbar-expand-lg navbar-light" id="menu_sup">
-      <div class="boton-collapse collapse1">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse menu " id="navbarTogglerDemo01">
-          <ul class="navbar-nav navbar-center mr-auto mt-2 mt-lg-0 botones-centro">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">
-                <p class="sup_button" id="homeactive"></p><span class="sr-only"></span>
+      <li>
+        <div id="menu">
+          <ul class="flex" id="menu_sup">
+            <li class="nav-item active hom">
+              <a class="nav-link no-color" href="#">
+                <p class="sup_buttons sup_button" id="homeactive"></p><span class="sr-only"></span>
               </a>
             </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="./menu.html">
+            <li class="nav-item">
+              <a class="nav-link no-color" href="./menu.html">
                 <p class="sup_buttons">Carta</p>
               </a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" href="./contacto.html">
+              <a class="nav-link no-color" href="./contacto.html">
                 <p class="sup_buttons">Contacto</p>
               </a>
             </li>
-            <li>
-              <button class="boton btn " type="button" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false"></button>
-              <div class="desplegable-idiomas">
-                <div class="dropdown-menu idiomas" aria-labelledby="dropdownMenuButton">
-                  <a class="drop-item dropdown-item " href="./idiomas/catala/catala.html"><img class="skull-lenguage"
-                      src="./Img/catalan.png" alt="Català"></a>
-                </div>
-              </div>
-            </li>
           </ul>
         </div>
-      </div>
-    </nav>
-  </div>
+      </li>
+    </ul>
+  </form>
+
 
   <!-- Carrusel -->
 
