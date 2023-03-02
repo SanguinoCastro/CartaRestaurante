@@ -297,13 +297,13 @@ a {
 @media(max-width: 615px) {
 
     .cabecera {
-        justify-content: space-between;
+        justify-content: center;
+        margin-left: -4.5em;
     }
 
     #menu {
         width: 86vw;
         min-width: 25em;
-        margin-left: em;
     }
     #menu_sup {
         width: 86vw;

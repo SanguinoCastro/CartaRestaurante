@@ -34,7 +34,7 @@
     width: 20em;
     height: 20em;
     margin-top: 40em;
-    margin-left: 25em;
+    margin-left: 23em;
 }
 .coffe {
     width: 20em;
@@ -44,40 +44,30 @@
     position: absolute;
     width: 20em;
     height: 20em;
-    margin-top: 12em;
+    margin-top: 15em;
     margin-left: -2em;
-}
-.churros {
-    position: absolute;
-    width: 20em;
-    height: 20em;
-    margin-top: -5em;
-    margin-left: 32em;
 }
 
 .churro {
-    margin-left: -1em;
-    margin-top: 3.5em;
-    width: 11em;
+    position: absolute;
+    margin-left: 32em;
+    margin-top: 0em;
+    width: 10em;
     opacity: 0.68;
 }
 .croasan {
     position: absolute;
-    width: 20em;
-    height: 20em;
-    margin-top: 60em;
-    margin-left: 2em;
-}
-
-.croissant {
     width: 16em;
+    margin-top: 57em;
+    margin-left: 2em;
     opacity: 0.75;
 }
+
 
 /* ponemos el estilo al footer para que entre otras cosas siempre quede centrado */
 .footer {
       
-    margin-top: 0em;
+    margin-top: 10em;
    
 }
 /* Aqui tenemos los @media para que la página sea lo mas responsive posible */
@@ -105,7 +95,7 @@
         width: 25em;
     }
     .churros {
-        margin-left: 40em;
+        margin-left: 37em;
     }
     .churro {
         width: 8em;
@@ -115,12 +105,13 @@
     }
     .cafe {
         margin-left: 35em;
+        margin-top: 35em;
     }
     .coffe {
         width: 15em;
     }
     .croasan {
-        margin-left: 30em;
+        margin-left: 35em;
         margin-top: 52em;
     }
     .croissant {
@@ -160,6 +151,19 @@
     }
     .footer {
         margin-left: 0em;
-        margin-top: 6em;
+        margin-top: 5em;
     } 
+}
+
+@media(max-width: 615px) {
+
+    .cabecera {
+        justify-content: center;
+        margin-left: -6.5em;
+    }
+
+    #menu {
+        width: 86vw;
+        min-width: 23em;
+    }
 }

@@ -91,7 +91,6 @@ trate de un establecimiento de restauración.</b>
 
 <b>La página web tiene las tres secciones requeridas por el proyecto: Home, Carta y Contacto.</b>
 
-<b>Las tres secciones disponen de una barra de navegación que se maniene en pantalla para poder acceder a las demás secciónes, además de un botón para cambiar de idioma al catalán</b>
 
 #### HOME:
 
@@ -122,7 +121,7 @@ trate de un establecimiento de restauración.</b>
 
 #### Contacto:
 
-<b>La página Contacto mantiene como las anteriores el mismo diseño superior con su responsive, y tras los elementos comunes encontramos una ventana de Maps indicandonos dónde se encuentra la Churreria (Cómo ésta no existe he colocado una dirección aleatoria dentro de una calle comercial). Debajo del mapa podemos encontrar la dirección, el número de teléfono y el e-mail dónde pedir reservas.</b>
+<b>La página Contacto mantiene como las anteriores el mismo diseño superior , y tras los elementos comunes encontramos una ventana de Maps indicandonos dónde se encuentra la Churreria (Cómo ésta no existe he colocado una dirección aleatoria dentro de una calle comercial). Debajo del mapa podemos encontrar la dirección, el número de teléfono y el e-mail dónde pedir reservas.</b>
 
 <img src= "/Img/web-contacto.png" width="500">
 
