@@ -96,29 +96,26 @@ trate de un establecimiento de restauración.</b>
 #### HOME:
 
 
-<b>La página de Home Inicia con el logo, el nombre de la churreria y los iconos preparados para poder relizar un sistema de registros y la opción de compra online con el carrito "cofre", también dispone del icono con desplegable para cambiar de idioma</b>
+<b>La página de Home Inicia con el nombre de la churreria y el menú para cambiar entre las secciones de la web y Seguidamente tiene un Slider con imágenes de los productos de la churreria</b>
 
 <img src= "/Img/web-home.png" width="500">
 
-<img src= "/Img/web-lenguage.png" width="200">
+<img src= "/Img/web-menu.png" width="250"> 
+<br><br>
 
-<b>La página de Home también dispone de un menú superior que se mantiene en el resto de páginas y queda en pantalla en todo momento (Cuándo se encoje la pantalla queda acoplado en un icóno desplegable), seguidamente tiene un Slider con imágenes de los productos de la churreria</b>
 
-
-<img src= "/Img/web-menu.png" width="250">     <img src= "/Img/web-menu2.png" width="150">
-
-<b>Si hacemos un poco de scroll, justo debajo del slider nos encontramos con la carta de presentación de la churreria, el horario, las redes sociales y el pie de página con el copyright</b>
+<b>Si hacemos un poco de scroll, justo debajo del slider nos encontramos con la carta de presentación de la churreria, el horario, las redes sociales y el pie de página con el copyright</b><br><br>
 
 <img src= "/Img/web-home2.png" width="500">
 
-<b>A medida que encogemos la página ésta se va adaptando al espacio disponible, quitando el icono de la web y cambiando la imágen del nombre para añadirlo quedando como en la siguiente imágen:</b>
+<b>A medida que encogemos la página ésta se va adaptando al espacio disponible</b>
 
 <img src= "/Img/web-home-responsive.png" width="200">
 
 
 #### Carta:
 
-<b>La página Carta mantiene como la anterior el mismo diseño superior con su responsive, y tras los elementos comunes encontramos la carta con una imágen de background, columnas e imágenes decorativas, que a medida que la screen va reduciendose van desapareciendo el fondo y las imágenes para dejar una carta más minimalista</b>
+<b>La página Carta mantiene como la anterior el mismo diseño superior, y tras los elementos comunes encontramos la carta con una imágen de background, columnas e imágenes decorativas, que a medida que la screen va reduciendose van desapareciendo el fondo y las imágenes para dejar una carta más minimalista</b>
 
 <img src= "/Img/web-carta.png" width="242"> <img src= "/Img/web-carta2.png" width="200">
 
