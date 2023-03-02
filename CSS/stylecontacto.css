@@ -1,4 +1,9 @@
 
+
+body{
+    height: 20vh !important;
+}
+
 /*Ponemos el div donde irá el maps*/
 
 .info {
@@ -6,11 +11,14 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    height: 100vw;
+    max-height: 50em;
+    min-height: 42em;
 }
 
 .maps {
-    height: 40em;
-    width: 100em;
+    height: 45vw;
+    width: 80vw;
     border: 0.3em solid rgb(238, 213, 71);
 }
 
@@ -18,12 +26,12 @@
     display: flex;
     justify-content: space-between;
     margin-top: 2em;
-    width: 100em ;
+    width: 80vw;
+    
 }
 
 .contact {
-    display: flex;
-    
+    display: flex;    
 }
 
 .contact-icon {
@@ -31,18 +39,23 @@
     width: 9em;
 }
 
+.seccion {
+    border: 1px solid rebeccapurple !important;
+}
+
 .icon {
-    height: 9em;
+    height: 5vw;
+    
 }
 
 .location {
     opacity: 0.7;
+    
 }
 
 .calendary {
-    width: 9em;
-    margin-top: -0.5em;
     
+    margin-top: -0.5em;    
 }
 
 .info-text {
@@ -79,15 +92,13 @@
 .red {
     margin-left: -1.5em;
 }
-/* modificamos el margin-top del footer*/
 
-.footer {   
-    margin-top: 0em;
-}
+
 
 /* Aqui tenemos los @media para que la página sea lo mas responsive posible */
 
-@media(max-width: 991px){
+@media(max-width: 1234px){
+
     .visitanos-cont{
         margin-top: 5em;
     }
@@ -95,14 +106,13 @@
     height: 2.55em;
     }
     .enviar {
-        width: 5em;
+        width: 6.5em;
+        
     }
-    
     .contact-cont {
-        margin-left: -5em;
         justify-content: center;
         align-items: center;
-        height: 15em;
+        height: 30em;
         width: 20em;
     }
     .contact-icon {
@@ -113,11 +123,16 @@
         margin-top: -2em;
     }
     .info-text{
-        margin-left: 2em;
-        margin-top: 2.5em;
-        align-items: center;
+        margin-left: 4em;
+        margin-top: 1em;
+        align-self: center;
         font-size: smaller;
         width: 20em;
+        text-align: center;
+    }
+
+    .tlf {
+        margin-left: 7em;
     }
     .contact {
         height: 2em;
@@ -128,7 +143,91 @@
         height: 3em;
         width: 3em;
     }
-    .footer {
-        margin-top: -8em;
+    
+}
+@media(max-width: 991px){
+
+
+    .visitanos-cont{
+        margin-top: 5em;
+    }
+    #home:hover {
+    height: 2.55em;
+    }
+    .enviar {
+        width: 6.5em;
+        
+    }
+    
+    .contact-icon {
+        height: 3em;
+        width: 3em;
+    }
+    .email {
+        margin-top: -2em;
+    }
+ 
+    .contact {
+        height: 2em;
+        width: 20em;
+    }
+    
+    .icon {
+        height: 3em;
+        width: 3em;
+    }
+    
+}
+
+@media(max-width: 615px) {
+
+    .cabecera {
+        justify-content: center;
+        margin-left: -4.5em;
+    }
+
+    #menu {
+        width: 86vw;
+        min-width: 22.8em;
+    }
+    #menu_sup {
+        width: 86vw;
+        min-width: 30em;
+        
+    }
+
+    .title {
+        margin-top: -3em;
+        width: 86vw;
+        height: 85vw;
+        max-width: 25em;
+        min-width: 15em;
+        max-height: 25em;
+        min-height: 15em;
+    }
+
+    .textoh {
+        width: 22em;
+    }
+
+    .contactanos {
+        margin-left: 1em;
+    }
+
+    .visita {
+        margin-left: 2em;
+        width: 10em;
+    }
+
+    .casilla{
+        margin-left: -0.8em;
+    }
+
+    .redes {
+        margin-left: 5em;
+    }
+
+    .enviar {
+        margin-left: 8em;
     }
 }

@@ -12,7 +12,7 @@
     <title>Los Churros de Bink's</title>
 </head>
 <body>
-       <!-- Cabecero connombre y menú -->
+       <!-- Cabecero con nombre y menú -->
 
        <form>
         <ul class=" cabecera">
@@ -50,34 +50,27 @@
     <iframe class="maps" src="https://maps.google.com/maps?q=Carrer%20d'Amadeu,%2041,%2008370%20Calella,%20Barcelona&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
 
     <div class="contact-cont row">
-
-      <div class=" contact col-lg-3 col-md-4 col-sm-6 col-xs-12">
-        <div class="contact-icon">
+      
+      <tr class="contact col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <td class="contact-icon">
           <img class="icon location" src="/Img/ubi.png" alt="Ubicación">
-        </div>
-        <div class="info-text">
-          <p>C/ d'Amadeu 41, 08370 
-              Calella</p>
-        </div>
-      </div>
+          <p class="info-text">C/ d'Amadeu 41, 08370 Calella</p>
+        </td>
+      </tr>
 
-      <div class="contact col-lg-3 col-md-4 col-sm-6 col-xs-12">
-        <div class="contact-icon">
-          <div class="contact-icon"><img class="icon" src="/Img/tlf.png" alt="Teléfono"></div>
-        </div>
-          <div class="info-text">
-            <p>(+34) 93 777 77 77</p>
-          </div>        
-      </div>
+      <tr class="contact col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <td class="contact-icon">
+          <img class=" icon" src="/Img/tlf.png" alt="Teléfono">
+          <p class= "info-text tlf">(+34) 93 777 77 77</p>
+          </td>        
+        </tr>
 
-      <div class="contact col-lg-3 col-md-4 col-sm-6 col-xs-12">
-        <div class="contact-icon">
-          <div class="contact-icon"><img class="icon calendary" src="/Img/calendar.png" alt="Reservas"></div>
-        </div>
-        <div class="info-text">
-          <a class="email" href="#" class="nav-link">churrosdebinks@binks.com</a>
-        </div>
-      </div>
+      <tr class="contact col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <td class="contact-icon ">
+          <img class="icon calendary" src="/Img/calendar.png" alt="Reservas">
+          <a class="nav-link email info-text" href="#">churrosdebinks@binks.com</a>
+        </td>
+      </tr>
     </div>
   </div>
 
@@ -85,18 +78,18 @@
 
   <div class="formulario-cont">
     <div>
-      <h1>Contactanos:</h1>
+      <h1 class="contactanos">Contactanos:</h1>
     <form class="needs-validation" novalidate>
       <div class="form-row">
         <div class="col-md-4 mb-3">
-          <label for="validationCustom01">Nombre</label>
+          <label for="validationCustom01" class="contactanos">Nombre</label>
           <input type="text" class="form-control" id="validationCustom01" value="" required>
           <div class="valid-feedback">
             ¡Verificado!
           </div>
         </div>
         <div class="col-md-4 mb-3">
-          <label for="validationCustom02">Telefono</label>
+          <label for="validationCustom02" class="contactanos">Telefono</label>
           <div class="input-group">
             <div class="input-group-prepend">
               <span class="input-group-text" id="validationTooltipUsernamePrepend">(+34)</span></div>
@@ -109,7 +102,7 @@
       </div>
 
       <div class="mb-3">
-        <label for="validationCustom01">Mensaje</label>
+        <label for="validationCustom01" class="contactanos">Mensaje</label>
         <textarea class="form-control" id="validationCustom01" placeholder="" required></textarea>
         <div class="invalid-feedback">
           Porfavor, introduzca un mensaje en el área de mensajes.
@@ -118,7 +111,7 @@
       
       <div class="form-group">
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+          <input class="form-check-input casilla" type="checkbox" value="" id="invalidCheck" required>
           <label class="form-check-label" for="invalidCheck">
             Acepta los Terminos y condiciones
           </label>
@@ -131,22 +124,23 @@
     </form>
   </div>
   </div>
-  <div class="visitanos-cont">
-    <div class="visitanos">
-      <h2>Visitanos en:</h2>
-        <div class="container redes">
-        
-          <div class ="container">
-            <a href="https://www.facebook.com/"><img class="red" src="/Img/fbpirata.png" alt="Facebook"></a>
-          </div>
-          <div class ="container">
-            <a href="https://instagram.com/vidacoffeeroast?igshid=YmMyMTA2M2Y="><img class="red" src="/Img/igpirata.png" alt="Instagram"></a>
-          </div>
-        </div>
-    </div>
-  </div>
 
-  <footer class="container footer">© LosChurrosdeBinks.S.A. 2023</footer>
+  <ul class="container  visitanos">
+    <h2 class="visita">Visitanos en:</h2>
+    <ul class="container redes">
+      <li class="container">
+        <a href="https://www.facebook.com/"><img class="red" src="./Img/fbpirata.png" alt="Facebook"></a>
+      </li>
+      <li class="container">
+        <a href="https://instagram.com/vidacoffeeroast?igshid=YmMyMTA2M2Y="><img class="red"
+              src="./Img/igpirata.png" alt="Instagram"></a>
+      </li>
+      <ul class="container footer">
+       <li> © LosChurrosdeBinks.S.A. 2023 </li>
+      </ul>
+    </ul>
+  </ul>
+  </div>
 
 
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
