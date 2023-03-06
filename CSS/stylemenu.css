@@ -159,11 +159,6 @@
 
     .cabecera {
         justify-content: center;
-        margin-left: -6.5em;
-    }
-
-    #menu {
-        width: 86vw;
-        min-width: 23em;
+        margin-left: -4.5em;
     }
 }

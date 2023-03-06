@@ -11,8 +11,10 @@
 /* Añadimos fondo al cuerpo de la página */
 html{
     width: 100vw;
-    overflow-x: hidden; 
+    overflow-x: hidden;
+    margin: 0;
 }
+
 body {
     display: flex;
     flex-direction: column;
@@ -20,6 +22,7 @@ body {
     background-image: url(/Img/background1.jpg);
     background-size: cover;
     width: 100vw;
+    margin: 0;
 }
 
 /* Quitamos todos los efectos de las listas */
@@ -122,7 +125,6 @@ a {
     height: 2.7em;
     align-self: center;
     margin-top: 0.5em;
-    margin-left: 1em;
 }
 /* Titulo de pantalla completa */
 .title {
@@ -131,14 +133,15 @@ a {
 }
 
 /* Empezamos el carrousel */
-.center {
+.carrusel {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .tablon {
     display: flex;
     width: 68vw;
-    min-width: 20em;
+    min-width: 19em;
     height: 40vw;
     min-height: 10em;
     align-items: center;
@@ -153,14 +156,6 @@ a {
     min-width: 20em;
     min-height: 10em;  
 }
-
-
-
-.arrows {
-    display: flex;
-    justify-content: space-around;  
-}
-
 
     /* Divs texto presentación */
 
@@ -189,6 +184,7 @@ a {
     align-items: center;
     width: 100em;
     margin-left: 0em;
+    overflow: hidden;
 }
 
 .borde{
@@ -200,12 +196,13 @@ a {
     margin-top: 0em;
     width: 30em;
     height: 33em;
+    
 }
 
 .visitanos {
     height: 8em;
-    width: 20em;
-    margin-top: 5em;
+    width: 15em;
+    margin-top: 4em;
     margin-bottom: 40em;
     font-family: pirate;
 }
@@ -298,12 +295,14 @@ a {
 
     .cabecera {
         justify-content: center;
-        margin-left: -5.5em;
+        margin-left: -5em;
     }
 
     #menu {
-        width: 86vw;
+        margin-top: -8em;
+        width: 20em;
         min-width: 20em;
+        justify-content: center;
     }
 
     .sup_buttons {
@@ -317,23 +316,34 @@ a {
     }
 
     #menu_sup {
-        width: 86vw;
-        min-width: 30em;
-        
+        width: 20em;
+        min-width: 20em;
+        align-items: stretch;
     }
 
     .title {
-        margin-top: -3em;
-        width: 86vw;
-        height: 85vw;
-        max-width: 25em;
-        min-width: 15em;
-        max-height: 25em;
-        min-height: 15em;
+        margin-top: -2em;
+        width: 23em;
+        height: 23em;
     }
 
     .textoh {
         width: 22em;
     }
 
+    .carrusel {
+        margin-top: -4em;
+    }
+
+    #home{
+        margin-left: -3em;
+    }
+
+    #homeactive{
+        margin-left: -3em;
+    }
+
+    .carrusel{
+        margin-top: -2em;
+    }
 }

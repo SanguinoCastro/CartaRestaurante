@@ -186,26 +186,15 @@ body{
         margin-left: -4.5em;
     }
 
-    #menu {
-        width: 86vw;
-        min-width: 22.8em;
-    }
+    
     #menu_sup {
         width: 86vw;
         min-width: 30em;
-        
     }
-
-    .title {
-        margin-top: -3em;
-        width: 86vw;
-        height: 85vw;
-        max-width: 25em;
-        min-width: 15em;
-        max-height: 25em;
-        min-height: 15em;
+    
+    #home{
+        margin-left: 1em;
     }
-
     .textoh {
         width: 22em;
     }
